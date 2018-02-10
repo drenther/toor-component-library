@@ -1,0 +1,32 @@
+{
+	"name": "toor-component-library",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"storybook": "start-storybook -p 9001 -c .storybook"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/drenther/toor-component-library.git"
+	},
+	"author": "Soumyajit Pathak",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/drenther/toor-component-library/issues"
+	},
+	"homepage": "https://github.com/drenther/toor-component-library#readme",
+	"devDependencies": {
+		"@storybook/addon-actions": "^3.3.12",
+		"@storybook/addon-notes": "^3.3.12",
+		"@storybook/addons": "^3.3.12",
+		"@storybook/react": "^3.3.12",
+		"babel-core": "^6.26.0"
+	},
+	"dependencies": {
+		"prop-types": "^15.6.0",
+		"react": "^16.2.0",
+		"react-dom": "^16.2.0"
+	}
+}
